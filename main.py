@@ -32,11 +32,11 @@ print(street_name[0])
 
 #Data type checking and conversion
 
-num_char=len(input("What is your name?\n"))
-print(type(num_char))
-new_num_char=str(num_char)
+#num_char=len(input("What is your name?\n"))
+#print(type(num_char))
+#new_num_char=str(num_char)
 #if I were to print the below without changing the data type to String from Int then we would get a data type error.
-print("Your name has "+new_num_char+" characters")
+#print("Your name has "+new_num_char+" characters")
 
 #Mathematical Operations in Python and priority (PEMDAS)
 () #parenthesis
@@ -45,4 +45,24 @@ print("Your name has "+new_num_char+" characters")
 "+ -" #sum and substraction
 print(3*3+3/3-3) #will lead to 7
 print(3*(3+3)/3-3) #will lead to 3 by changing the priority
+
+result=4/2
+# if I want to divide by 2 again then
+#result/=2 --> 2/2=1
+#print(result)
+#result+=2 --> 2+2=4
+#print(result)
+#result-=2 --> 2-2=0
+#print(result)
+
+
+#F-strings
+
+score=0
+height=1.8
+iswinning=True
+
+print("your score is "+str(score))
+
+print(f"your score is {score}, your height is {height}")
 
