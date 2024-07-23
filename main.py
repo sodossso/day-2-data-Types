@@ -24,3 +24,16 @@ print(3.14159)
 True
 False
 
+#Quiz example, the space in Abbey Road counts as an integer
+street_name="Abbey Road"
+print(street_name[5])
+print(street_name[0])
+
+
+#Data type checking and conversion
+
+num_char=len(input("What is your name?\n"))
+print(type(num_char))
+new_num_char=str(num_char)
+#if I were to print the below without changing the data type to String from Int then we would get a data type error.
+print("Your name has "+new_num_char+" characters")
