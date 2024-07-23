@@ -37,3 +37,12 @@ print(type(num_char))
 new_num_char=str(num_char)
 #if I were to print the below without changing the data type to String from Int then we would get a data type error.
 print("Your name has "+new_num_char+" characters")
+
+#Mathematical Operations in Python and priority (PEMDAS)
+() #parenthesis
+"**" #exponent
+"* /" #multiplication and division, the calculation most to the left will be prioritised
+"+ -" #sum and substraction
+print(3*3+3/3-3) #will lead to 7
+print(3*(3+3)/3-3) #will lead to 3 by changing the priority
+
